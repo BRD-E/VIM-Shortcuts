@@ -13,7 +13,7 @@ Insert new line:
 Move to head of file:
 	0) Command mode
 	1) gg
-	
+
 Move to end of file:
 	0) Command mode
 	1) G
@@ -32,5 +32,5 @@ Copy, cut, and paste:
 	2) d to cut, y to copy
 	3) P to paste before cursor, p to paste after cursor
 	NOTES:
-		d stands for delete in vim
+		d stands for delete in vim, aka cut
 		y stands for yank in vim, aka copy
