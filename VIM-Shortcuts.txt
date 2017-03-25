@@ -1,0 +1,36 @@
+Insert Mode:
+	1) i for inserting before
+	2) a for appending after
+
+Command Mode:
+	1) alt or escape
+
+Insert new line:
+	0) Command mode
+	1) o for new line below the cursor
+	2) O for a new line after the cursor
+
+Move to head of file:
+	0) Command mode
+	1) gg
+	
+Move to end of file:
+	0) Command mode
+	1) G
+
+Move to end of line:
+	0) Command mode
+	1) A
+
+Move to head of line:
+	0) Command mode
+	1) I
+
+Copy, cut, and paste:
+	0) Command mode
+	1) v to select characters, V to select lines, ctrl-v for rectangular blocks
+	2) d to cut, y to copy
+	3) P to paste before cursor, p to paste after cursor
+	NOTES:
+		d stands for delete in vim
+		y stands for yank in vim, aka copy
